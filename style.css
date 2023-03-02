@@ -104,18 +104,25 @@ span {
     color: var(--color);
     margin-bottom: 1rem;
     text-align: center;
+    position: relative;
 
 }
 
 .etoile::before {
-    content: "_________";
+    content: "__________";
     color: black;
+  left: 4%;
+  position: absolute;
+  bottom: 22%;
+
 
 }
 
 .etoile::after {
     content: "_________";
     color: black;
+    position: absolute;
+    bottom: 22%;
 
 }
 
